@@ -1,0 +1,31 @@
+version: '3'
+services:
+  app:
+    image: letsjavaspringboot-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docker_app:/var/opt/LetsJavaSpringBoot
+    depends_on:
+      - postgres
+    environment:
+      DB_CONNECTION: pgsql
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_DATABASE: letsjavaspringboot_db
+      DB_USERNAME: letsjavaspringboot_db_user
+      DB_PASSWORD: letsjavaspringboot_db_user_pass
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: letsjavaspringboot_db
+      POSTGRES_USER: letsjavaspringboot_db_user
+      POSTGRES_PASSWORD: letsjavaspringboot_db_user_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
