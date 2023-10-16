@@ -13,6 +13,16 @@ Also, you will also need docker-composer. To install :
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 ```
 
+At the end, just check you java version
+
+```
+java --version
+```
+
+If it's not 17, you may wish to use [sdkman](https://sdkman.io/) for easily switching between java versions!
+
+See my note here on how to use sdkman to switch to java 17 -> [note](https://github.com/rept0id/notes/blob/main/Shared/sdkman-java17.md)
+
 ## Run
 Move to the folder you downloaded this project and run :
 ```
