@@ -1,10 +1,9 @@
 package gr.simplecode.letsjavaspringboot.repository;
 
+import gr.simplecode.letsjavaspringboot.model.MatchOddsEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import gr.simplecode.letsjavaspringboot.model.StatusEntity;
-
 @Repository
-public interface StatusRepository extends JpaRepository<StatusEntity, Long> {
+public interface MatchOddsRepository extends JpaRepository<MatchOddsEntity, Long> {
 }

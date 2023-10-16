@@ -22,12 +22,6 @@ The default port of this application is 8081, so you'll be able to find it at :
 http://localhost:8081
 ```
 
-## Stop
-
-Dont forget to stop the application once you dont need it anymore !
-
-sudo make stop
-
 ## Tests
 
 ### Java Tests :
@@ -120,7 +114,7 @@ curl -X PUT -H "Content-Type: application/json" -d '{
 
 Delete a match odd by ID (DELETE):
 
-- [ ] -> Replace `<match_odd_id>` (see "List all match odds (GET)")
+-> Replace `<match_odd_id>` (see "List all match odds (GET)")
 ```
 curl -X DELETE http://localhost:8081/match-odd/<match_odd_id>
 ```

@@ -1,12 +1,4 @@
-FROM adoptopenjdk/openjdk11:ubi
+FROM adoptopenjdk/openjdk11
 
-WORKDIR /var/opt/LetsJavaSpringBoot
-
-# Copy the entire project into the container
-COPY . /var/opt/LetsJavaSpringBoot
-
-# Set execute permissions for the mvnw script
-RUN chmod +x mvnw
-
-# Use a shell to run multiple commands
-CMD ["/var/opt/LetsJavaSpringBoot/mvnw", "spring-boot:run"]
+COPY target/letsjavaspringboot-0.0.1-SNAPSHOT.jar server.jar
+ENTRYPOINT ["java","-jar","/server.jar"]
