@@ -1,5 +1,7 @@
 # LetsJavaSpringBoot
 
+![java-11](https://img.shields.io/badge/java-11-f39f37)
+
 ## Prepare
 
 You may wish to install docker. For debian-based :
