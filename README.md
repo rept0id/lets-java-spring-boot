@@ -120,7 +120,7 @@ curl -X PUT -H "Content-Type: application/json" -d '{
 
 Delete a match odd by ID (DELETE):
 
-- [ ] -> Replace `<match_odd_id>` (see "List all match odds (GET)")
+-> Replace `<match_odd_id>` (see "List all match odds (GET)")
 ```
 curl -X DELETE http://localhost:8081/match-odd/<match_odd_id>
 ```
