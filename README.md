@@ -6,11 +6,7 @@
 
 You may wish to install docker. For debian-based :
 ```
-sudo apt-get install docker
-```
-Also, you will also need docker-composer. To install :
-```
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+sudo apt-get install docker docker-compose
 ```
 
 At the end, just check you java version
