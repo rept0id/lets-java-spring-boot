@@ -1,6 +1,6 @@
 # LetsJavaSpringBoot
 
-![java-11](https://img.shields.io/badge/java-11-f39f37)
+![java-17](https://img.shields.io/badge/java-11-f39f37)
 
 ## Prepare
 
