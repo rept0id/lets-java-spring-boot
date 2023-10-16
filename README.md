@@ -9,15 +9,16 @@ You may wish to install docker. For debian-based :
 sudo apt-get install docker docker-compose
 ```
 
-At the end, just check you java version
-
+Then, simply verify your Java version :
 ```
 java --version
 ```
 
-If it's not 17, you may wish to use [sdkman](https://sdkman.io/) for easily switching between java versions!
+It must be 17, at the very least, for this project.
 
-See my note here on how to use sdkman to switch to java 17 -> [note](https://github.com/rept0id/notes/blob/main/Shared/sdkman-java17.md)
+In the event it's not 17, you might consider employing SDKMAN for effortlessly toggling between Java versions!
+
+Refer to my note here for guidance on how to switch to Java 17 -> [note](https://github.com/rept0id/notes/blob/main/Shared/sdkman-java17.md).
 
 ## Run
 Move to the folder you downloaded this project and run :
@@ -29,17 +30,6 @@ The default port of this application is 8081, so you'll be able to find it at :
 ```
 http://localhost:8081
 ```
-
-At the end, just check you java version
-
-```
-java --version
-```
-
-If it's not 17, you may wish to use [sdkman](https://sdkman.io/) for easily switching between java versions!
-
-See my note here on how to use sdkman to switch to java 17 -> [note](https://github.com/rept0id/notes/blob/main/Shared/sdkman-java17.md)
-
 
 ## Stop
 
