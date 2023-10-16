@@ -25,9 +25,9 @@ http://localhost:8081
 ## Stop
 
 Dont forget to stop the application once you dont need it anymore !
-
+```
 sudo make stop
-
+```
 ## Tests
 
 ### Java Tests :
