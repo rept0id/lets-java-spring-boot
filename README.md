@@ -32,11 +32,11 @@ sudo make stop
 
 ### Java Tests :
 
-    TODO : Writte Java Tests
+TODO : Writte Java Tests
 
 ### Curl Tests :
 
-    -> *Assuming this application runs on port 8081*
+-> *Assuming this application runs on port 8081* :
 
 #### Matches :
 
