@@ -1,4 +1,4 @@
-# LetsJavaSpringBoot
+# lets-java-springboot
 
 ![java-17](https://img.shields.io/badge/java-17-f39f37)
 
